@@ -1,0 +1,13 @@
+from scipy import stats
+import numpy
+c=[23,45,77,12,78,90,78,34,78]
+x=numpy.mean(c)
+y=numpy.median(c)
+z=stats.mode(c)
+print("mean is=",x)
+print("median is=",y)
+print("mode is=",z)
+Output:-
+mean is= 57.22222222222222
+median is= 77.0
+mode is= ModeResult(mode=78, count=3)
